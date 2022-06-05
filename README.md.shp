@@ -1,0 +1,18 @@
+# SH-ELHUYAR
+
+Euskara<->Gaztelania komando lerro hiztegia UNIX sistemetarako.
+
+```
+> elhuyar -h
+<shp>
+    export PATH="`pwd`/bin:${PATH}"
+    elhuyar -h
+</shp>
+```
+
+```
+> elhuyar -l es persona
+<shp>
+    elhuyar -l es persona | cat
+</shp>
+```
